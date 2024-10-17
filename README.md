@@ -1,28 +1,37 @@
+# Object Detection Project
 
-Object Detection Project - README
-Description
-The Object Detection project is designed to identify and locate various objects in images or video streams using advanced computer vision techniques. The core of this project leverages YOLO (You Only Look Once), a cutting-edge object detection algorithm known for its real-time performance. YOLO can detect multiple objects in an image or video frame while maintaining both high speed and accuracy, making it suitable for various real-world applications like surveillance, autonomous driving, and more.
+## Description
 
-Key Technologies
-Python: The primary programming language used in the project for orchestrating the object detection pipeline, integrating libraries, and processing the output.
+The **Object Detection** project is designed to identify and locate various objects in images or video streams using advanced computer vision techniques. The core of this project leverages **YOLO (You Only Look Once)**, a cutting-edge object detection algorithm known for its real-time performance. YOLO can detect multiple objects in an image or video frame while maintaining both high speed and accuracy, making it suitable for various real-world applications like surveillance, autonomous driving, and more.
 
-YOLO (You Only Look Once): A state-of-the-art, deep learning-based object detection algorithm. YOLO processes the entire image in a single forward pass of the neural network to predict objects and their bounding boxes efficiently, making it fast and highly accurate.
+## Key Technologies
 
-OpenCV: A powerful open-source computer vision library. It is used for image processing tasks, capturing video streams from different sources, and integrating with the YOLO model to detect objects in real time.
+- **Python**: The primary programming language used in the project for orchestrating the object detection pipeline, integrating libraries, and processing the output.
+  
+- **YOLO (You Only Look Once)**: A state-of-the-art, deep learning-based object detection algorithm. YOLO processes the entire image in a single forward pass of the neural network to predict objects and their bounding boxes efficiently, making it fast and highly accurate.
 
-Features
-Real-time object detection: The project can detect multiple objects in real-time using video streams or pre-recorded video files.
+- **OpenCV**: A powerful open-source computer vision library. It is used for image processing tasks, capturing video streams from different sources, and integrating with the YOLO model to detect objects in real time.
 
-High Accuracy: YOLO's architecture is optimized to ensure high precision in detecting objects, while maintaining the ability to process images quickly.
+## Features
 
-Video Stream Integration: The project can capture video from a camera feed or other video input, analyze frames for object detection, and display results with bounding boxes around detected objects.
+- **Real-time object detection**: The project can detect multiple objects in real-time using video streams or pre-recorded video files.
+  
+- **High Accuracy**: YOLO's architecture is optimized to ensure high precision in detecting objects, while maintaining the ability to process images quickly.
+  
+- **Video Stream Integration**: The project can capture video from a camera feed or other video input, analyze frames for object detection, and display results with bounding boxes around detected objects.
 
-Installation and Setup
-Prerequisites
+## Installation and Setup
+
+### Prerequisites
 Ensure you have the following dependencies installed on your system:
+- Python 3.x
+- OpenCV
+- NumPy
+- YOLO weights and configuration files (download from [YOLO official website](https://pjreddie.com/darknet/yolo/))
+- Other dependencies listed in `requirements.txt`
 
-Python 3.x
-OpenCV
-NumPy
-YOLO weights and configuration files (download from YOLO official website)
-Other dependencies listed in requirements.txt
+### Steps to Install
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/object-detection-project.git
+   cd object-detection-project
