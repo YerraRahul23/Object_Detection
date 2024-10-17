@@ -33,5 +33,5 @@ Ensure you have the following dependencies installed on your system:
 ### Steps to Install
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/object-detection-project.git
+   git clone https://github.com/YerraRahul23/object-detection-project.git
    cd object-detection-project
