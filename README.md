@@ -27,8 +27,7 @@ Ensure you have the following dependencies installed on your system:
 - Python 3.10
 - OpenCV
 - NumPy
-- YOLO weights and configuration files (download from [YOLO official website](https://pjreddie.com/darknet/yolo/))
-- Other dependencies listed in `requirements.txt`
+- YOLO weights and configuration files (download from [google dive](https://drive.google.com/drive/folders/1syGLNd5ECdplhTAj9Xvsc9DTdAsC9854?usp=sharing))
 
 ### Steps to Install
 1. **Clone the repository:**
