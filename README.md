@@ -34,3 +34,6 @@ Ensure you have the following dependencies installed on your system:
    ```bash
    git clone https://github.com/YerraRahul23/Object_Detection.git
    cd object-detection-project
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
