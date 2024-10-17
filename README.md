@@ -24,7 +24,7 @@ The **Object Detection** project is designed to identify and locate various obje
 
 ### Prerequisites
 Ensure you have the following dependencies installed on your system:
-- Python 3.x
+- Python 3.10
 - OpenCV
 - NumPy
 - YOLO weights and configuration files (download from [YOLO official website](https://pjreddie.com/darknet/yolo/))
@@ -33,5 +33,5 @@ Ensure you have the following dependencies installed on your system:
 ### Steps to Install
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YerraRahul23/object-detection-project.git
+   git clone https://github.com/YerraRahul23/Object_Detection.git
    cd object-detection-project
