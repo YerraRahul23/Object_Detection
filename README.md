@@ -1,4 +1,9 @@
-# Object Detection Project
+![Object Detection Banner](https://www.mygreatlearning.com/blog/wp-content/uploads/2020/07/Blog-Featured-Data-pre-processing-1000X700-02.jpg)
+---
+# Object Detection with YOLO
+
+## About
+Python project using **YOLO** and **OpenCV** for real-time **object detection**. Detects and tracks multiple objects in video streams, calculates distances and sizes using coordinates, and overlays bounding boxes with labels. Demonstrates core computer vision concepts like detection, tracking, and visualization.
 
 ## Description
 
